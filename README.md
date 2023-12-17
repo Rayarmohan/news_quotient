@@ -11,3 +11,5 @@ Flutter: The app is built using the Flutter framework, allowing for a single cod
 NewsAPI: The app leverages the NewsAPI to fetch and display up-to-date news content.
 
 ## Video
+
+https://github.com/Rayarmohan/news_quotient/assets/117017937/5939f005-1e7c-4d3e-bbed-99472863600a
