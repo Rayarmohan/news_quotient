@@ -14,21 +14,22 @@ class BottomNavPage extends StatefulWidget {
 class _BottomNavPageState extends State<BottomNavPage> {
 
    int _selectedIndex = 0;
-   List pages = [HomePage(), InfoPage()];
+   List pages = const [HomePage(), InfoPage()];
 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       bottomNavigationBar: CurvedNavigationBar(
-        backgroundColor: Colors.white54,
+        backgroundColor: Colors.transparent,
         color: Colors.red[700] ?? Colors.white,
         onTap: (index){
           setState(() {
             _selectedIndex = index;
           });
         },
-        items: const [
+        items: const  [
            Icon(Icons.home,color: Colors.white,),
            Icon(Icons.info,color: Colors.white,)
         ],

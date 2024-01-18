@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_quotient/pages/bottom_navigation.dart';
 import 'package:news_quotient/pages/launch_screen.dart';
 
 void main() {

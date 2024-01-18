@@ -10,7 +10,7 @@ class InfoPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            SizedBox(height: 20,),
+            const SizedBox(height: 20,),
             Text(
               "NewsQuotient",
               style: GoogleFonts.domine(color: Colors.red[700],

@@ -19,7 +19,7 @@ class LaunchScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 300,),
+            const SizedBox(height: 300,),
             Center(
               child: Text(
                 "NewsQuotient",
